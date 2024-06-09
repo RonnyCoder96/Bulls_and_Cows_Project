@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: You can create instances of <b>MyClass</b> using the keyword <b>new</b> inside
+      public classes that belong to the same package.
+  - text: You can't create instances of <b>MyClass</b> using the keyword <b>new</b>
+      inside classes that belong to other packages.
+  - text: You can't create instances of <b>MyClass</b> using the keyword <b>new</b>
+      inside the <b>method1</b>
+  - text: You can create instances of <b>MyClass</b> using the keyword <b>new</b> inside
+      the <b>method2</b>
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2981#comment
+status: Solved
+record: -1
+local_check: false

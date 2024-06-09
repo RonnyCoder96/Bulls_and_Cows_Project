@@ -1,0 +1,13 @@
+type: code
+custom_name: Find the first occurrence of the word "the"
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2286#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 May 2024 03:36:16 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,19 @@
+custom_name: Keyword "super"
+content:
+  - Theory
+  - Fix the non-compiled hierarchy
+  - Accessing constructors of a base class
+  - Calling parent class constructor in derived class
+  - Employees
+  - Why we use the super keyword
+  - Statements
+  - Class hierarchy
+  - Inheritance and constructor usage in pet namespace
+  - Implementing parent class constructor in child class
+  - Bank account
+  - When the keyword cannot be used
+  - Inheriting shapes with constructors
+  - Implementing inheritance in object creation
+  - Extended classes
+  - When the keyword is used
+  - The final characters

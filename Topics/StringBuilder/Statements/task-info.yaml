@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "When we need a lot of concatenations, String and StringBuilder will work\
+    \ almost equally fast."
+  - text: "When we need a lot of concatenations, String will work faster than a StringBuilder."
+  - text: "When we need a lot of concatenations, StringBuilder will work faster than\
+    \ a String."
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3816#comment
+status: Solved
+record: -1
+local_check: false

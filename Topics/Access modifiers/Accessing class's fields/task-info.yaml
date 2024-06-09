@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 'use special methods for accessing fields — getters '
+  - text: make public copy of these fields and access them
+  - text: make the fields package-private and put all needed classes into one package
+  - text: make the fields public
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2126#comment
+status: Solved
+record: -1
+local_check: false

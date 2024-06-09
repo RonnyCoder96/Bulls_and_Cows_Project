@@ -1,0 +1,31 @@
+<div class="step-text">
+<h5 id="description" style="text-align: center;">Description</h5>
+<p>Some players need a challenge, so let's make the secret code in the game harder to guess. You should add support for more than 10 symbols by including letters too. Now, the secret code can contain the 10 numbers <code class="java">0-9</code> and the 26 lowercase Latin characters <code class="java">a-z</code>. So, the new maximum length for the secret code is 36. Note that the length of the secret code may not match the number of possible symbols in it, so you should request input twice: once for the secret code length and once for the number of possible symbols in it.</p>
+<p>Also, since the secret code is not a number anymore, allow the symbol <code class="java">0</code> as the first character in a secret code.</p>
+<h5 id="objectives" style="text-align: center;">Objectives</h5>
+<p>In this step, your program should:</p>
+<ol>
+<li>Ask for the length of the secret code.</li>
+<li>Ask for the range of possible symbols in the secret code.</li>
+<li>Generate a secret code using numbers and characters. This time, you should also print the secret code using <code class="java">*</code> characters and print which symbols were used to generate the secret code.</li>
+<li>Function as a fully playable game.</li>
+</ol>
+<h5 id="example" style="text-align: center;">Example</h5>
+<p>The greater-than symbol followed by a space <code class="java">&gt; </code> represents the user input. Note that it's not part of the input.</p>
+<pre><code class="language-no-highlight">Input the length of the secret code:
+&gt; 4
+Input the number of possible symbols in the code:
+&gt; 16
+The secret is prepared: **** (0-9, a-f).
+Okay, let's start a game!
+Turn 1:
+&gt; 1a34
+Grade: 1 bull and 1 cow
+Turn 2:
+&gt; b354
+Grade: 2 bulls and 1 cow
+Turn 3:
+&gt; 93b4
+Grade: 4 bulls
+Congratulations! You guessed the secret code.</code></pre>
+</div>
